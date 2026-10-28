@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.1",
+  "version": "0.20.3",
   "shellApi": 1,
-  "minShellVersion": "0.1.6",
-  "releaseNotes": "",
+  "minShellVersion": "0.1.7",
+  "releaseNotes": "器灵视频按漫禾分站协议上传素材并用JSON提交，支持任务续查；修复算力AI原件上传413；新增软件内完整桌面版下载安装。旧壳0.1.6及更早版本需先手动安装一次新版，沿用原数据目录。\n",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.1/canvas-resources-0.20.1.zip",
-    "size": 1249326,
-    "sha256": "0605d0e82dd05082033b0378855bf367a6bd77d55bb93a03ff2ebda68c91902b"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.3/canvas-resources-0.20.3.zip",
+    "size": 1252646,
+    "sha256": "0c22a306a857450af9927cba4bdbf66116555034ada4dc61ea37d34efd855c9a"
   },
   "files": {
-    "assets/highlighted-body-OFNGDK62-C87IPYXn.js": {
+    "assets/highlighted-body-OFNGDK62-CUaMUZ_V.js": {
       "size": 439,
-      "sha256": "362dd7c7601989255ca2aedd5b40364942e689a59e69da9b612c1f0cf28ad6c5"
+      "sha256": "8a98e57e88e82a81607e5b80a5b1c5b812b30ee847f98a40f2c268cd3394be0d"
     },
     "assets/index-5nja84Cb.css": {
       "size": 110946,
       "sha256": "ff0d8e763595e5af3a66c3600fc606665466fcce061a50c908dafd5096fa9d64"
     },
-    "assets/index-p5EwCkA8.js": {
-      "size": 3765414,
-      "sha256": "16672391d4e705c4185a81a3c0c60a6b2a092af8c0601ed4db3087cf8b473209"
+    "assets/index-BDsSqQ52.js": {
+      "size": 3773162,
+      "sha256": "4e544898033f41829d7ce8c7cf8c895c118a10a3d9df0861d5536423a7b4c473"
     },
     "canvas-release.json": {
       "size": 87,
-      "sha256": "058f3f19d52ca8c0203dd416828723a77a37695b2f589e805d6cc8ba85360e52"
+      "sha256": "023e9ddd0821ed0558d0f6e530d119a00c0f27db64c9b7abf8830f8aa5e4164e"
     },
     "config.js": {
       "size": 288,
@@ -61,7 +61,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "a1a673e22046d0954a7b9130416ec7ebcdaa138c453f86980938418378bf7ff4"
+      "sha256": "e5b331bd2fab3e95787575d5364b26664cb575523577545ac4d69fc562f11626"
     },
     "logo.svg": {
       "size": 233,
@@ -71,5 +71,11 @@
       "size": 2,
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     }
+  },
+  "installer": {
+    "version": "0.1.8",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.3/InfiniteCanvas-Setup-0.1.8.exe",
+    "size": 113308428,
+    "sha256": "a2f17f690b84c7b475eed63a141966dc6b592de71fef15e03bf6ac1f56a328d2"
   }
 }
