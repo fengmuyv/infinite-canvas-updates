@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "product": "infinite-canvas-desktop",
+  "version": "0.20.1",
+  "shellApi": 1,
+  "minShellVersion": "0.1.6",
+  "releaseNotes": "",
+  "package": {
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.1/canvas-resources-0.20.1.zip",
+    "size": 1249326,
+    "sha256": "0605d0e82dd05082033b0378855bf367a6bd77d55bb93a03ff2ebda68c91902b"
+  },
+  "files": {
+    "assets/highlighted-body-OFNGDK62-C87IPYXn.js": {
+      "size": 439,
+      "sha256": "362dd7c7601989255ca2aedd5b40364942e689a59e69da9b612c1f0cf28ad6c5"
+    },
+    "assets/index-5nja84Cb.css": {
+      "size": 110946,
+      "sha256": "ff0d8e763595e5af3a66c3600fc606665466fcce061a50c908dafd5096fa9d64"
+    },
+    "assets/index-p5EwCkA8.js": {
+      "size": 3765414,
+      "sha256": "16672391d4e705c4185a81a3c0c60a6b2a092af8c0601ed4db3087cf8b473209"
+    },
+    "canvas-release.json": {
+      "size": 87,
+      "sha256": "058f3f19d52ca8c0203dd416828723a77a37695b2f589e805d6cc8ba85360e52"
+    },
+    "config.js": {
+      "size": 288,
+      "sha256": "33c15a252c60b6103ad20c773e1ec662c1aaa636277aa24698274a7d2a743038"
+    },
+    "icons/claude.svg": {
+      "size": 1696,
+      "sha256": "a3101f3047a119aa11825ad9369510f0c472428c8c52d420e31bc62db44a8364"
+    },
+    "icons/deepseek.svg": {
+      "size": 2164,
+      "sha256": "deba5f98a5c1796e20fcac3149bcd7eb8a32f0bdd04d048819400b1f28bd1439"
+    },
+    "icons/gemini.svg": {
+      "size": 2836,
+      "sha256": "8ab0a9bafec11f7e69bcb9fc4ffd8f1bc927d1ddcbbb6ff36dee5ae8b5a9d602"
+    },
+    "icons/glm.svg": {
+      "size": 3597,
+      "sha256": "8174e65ff71647d5c705c920c953a82bd723d9e3e42887bdd4ffc9dfe51207a0"
+    },
+    "icons/grok.svg": {
+      "size": 756,
+      "sha256": "9175fc90c22655160231976c849f25a03b888d7cc0e04c5f1b987b659bb07c95"
+    },
+    "icons/linuxdo.svg": {
+      "size": 1492,
+      "sha256": "dc7fe55ca4dc1062611111df4208da9d44655c36f85ad52727facd4bba2b4d60"
+    },
+    "icons/openai.svg": {
+      "size": 1687,
+      "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186"
+    },
+    "index.html": {
+      "size": 1087,
+      "sha256": "a1a673e22046d0954a7b9130416ec7ebcdaa138c453f86980938418378bf7ff4"
+    },
+    "logo.svg": {
+      "size": 233,
+      "sha256": "76e174b82af0dfac35c55ba086d4e9781aa1d2ade984b50ddb6489b408efd831"
+    },
+    "plugins/index.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  }
+}
