@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.5",
+  "version": "0.20.6",
   "shellApi": 1,
   "minShellVersion": "0.1.9",
-  "releaseNotes": "新增本地图片、视频和音频原文件引用，支持素材库整目录搬迁、内容指纹找回与旧素材关联保留副本。本次需要桌面壳0.1.9，请在当前生成任务结束后安装完整桌面更新，沿用原数据目录。\n",
+  "releaseNotes": "画布连线支持点击选中、再次点击剪断与悬停800ms提示；视频取回保留原任务身份并确认本地保存；剪断后立即撤销可靠恢复并支持重做。资源更新，桌面壳保持0.1.9。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.5/canvas-resources-0.20.5.zip",
-    "size": 1255550,
-    "sha256": "e2bfee8e3da3d39a59fc378d253346cb3a8fdf0d1ee6fa5c8f98a3f13df24c12"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.6/canvas-resources-0.20.6.zip",
+    "size": 1262434,
+    "sha256": "3323cc78f81241f2fd69c28ea637dc2b8a9176139d0e5c5141ff981ea259fbd5"
   },
   "files": {
-    "assets/highlighted-body-OFNGDK62-C7wx8WiQ.js": {
+    "assets/highlighted-body-OFNGDK62-DG1mz986.js": {
       "size": 439,
-      "sha256": "f0dade635bf49a43c03bbc09f52f56ae5d40fc1b7dbb6be411528696251a6e6d"
+      "sha256": "1ee2785b580f76c39b7d8dcbe899ab24d1e97647bfafa5538b893ae20cdf9c80"
     },
-    "assets/index-CbRk6bM0.js": {
-      "size": 3782313,
-      "sha256": "a928b9e59c73d94c9d6371166865c05283a62043616bc729c4a3ef529775db59"
+    "assets/index-B1X7uIvs.css": {
+      "size": 111065,
+      "sha256": "9bf94a1a122136aa345f29664df975988f9758f492f53d09be9ed95c22425ed8"
     },
-    "assets/index-eFaHcNF0.css": {
-      "size": 111013,
-      "sha256": "bcc93bdd6731c810ef7d3526ec5e6bd01e298203df6e2465a5f78427abfb4747"
+    "assets/index-DnH5NmtY.js": {
+      "size": 3796559,
+      "sha256": "48d36477fc9db0c22c5097a016e4232967ef6ad87ad4e3c419ec00967d8859d1"
     },
     "canvas-release.json": {
       "size": 87,
-      "sha256": "d053a9ac4eeb1c6c6837e63b64965287cfeedadaa4b967a709af15a396710754"
+      "sha256": "e4b1662180b69944e3f6247628ce279d4e9c48b254133a1d8ff59324c4ab8bca"
     },
     "config.js": {
       "size": 288,
@@ -61,7 +61,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "c2801d9b9d84769fc1aae9ec28bbee76ffe4b2ac3d0eb3f1700d0c4392bd5de6"
+      "sha256": "671f6c7836babbf0746503cc6fe9f2dba9efe5f10537476a76cba28ffe7b656d"
     },
     "logo.svg": {
       "size": 233,
