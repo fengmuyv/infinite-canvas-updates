@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.7",
+  "version": "0.20.8",
   "shellApi": 1,
-  "minShellVersion": "0.1.9",
-  "releaseNotes": "画布节点右键复制及 Ctrl+C/V 保留入线和出线；同时复制的端点只连接新节点，跳过已删除的外部端点。仅前端资源更新，沿用桌面壳 0.1.9 安装包。",
+  "minShellVersion": "0.1.10",
+  "releaseNotes": "资源 0.20.8 / 桌面壳 0.1.10\n\n- 修复本地视频截帧被误报跨域：使用同源 Blob 解码，保留原文件引用和当前播放位置；桌面远端媒体复用主进程读取。\n- 拖入或选定本地视频、图片、音频后直接引用，首次导入自动登记文件所在目录，不再重复选择素材库目录。\n\n本次包含桌面主进程调整，需更新完整桌面壳 0.1.10；旧壳不能仅安装本次资源。更新前保存并结束当前生成任务，继续沿用原数据目录。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.7/canvas-resources-0.20.7.zip",
-    "size": 1262497,
-    "sha256": "8ffa425d543e3cf1a3a7d1f31b7953f11a049879de5c5810a4252a57ea95dc2b"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.8/canvas-resources-0.20.8.zip",
+    "size": 1262472,
+    "sha256": "89aa881c92ed6fab5754c2e3a63b8323f8b5511a5844a84de885ef5d515cb83c"
   },
   "files": {
-    "assets/highlighted-body-OFNGDK62-RmqItGuv.js": {
+    "assets/highlighted-body-OFNGDK62-Eum_m2pU.js": {
       "size": 439,
-      "sha256": "ee6ad1f537dc29aea6ff0ee2539552092e755c4c935221c76e824178678ad359"
+      "sha256": "4af275ff5a37034a4186e6b20408a102ab07f718666d901b8a084bfbd666d09a"
     },
     "assets/index-B1X7uIvs.css": {
       "size": 111065,
       "sha256": "9bf94a1a122136aa345f29664df975988f9758f492f53d09be9ed95c22425ed8"
     },
-    "assets/index-CGFO_SwV.js": {
-      "size": 3796808,
-      "sha256": "69e82059ab93981c1e94ffd3aeceba5f019cb2ae6e864804dfbabee16313dbe3"
+    "assets/index-DWtJ56z8.js": {
+      "size": 3797104,
+      "sha256": "6ae67ab35af180517bfd395c42ccca8fd3a679b2a4eccc8cc9a4043e7c5e4c0c"
     },
     "canvas-release.json": {
       "size": 87,
-      "sha256": "43d7f7a8591e578f534c96c68604a83e51657d1a2083bfdd6e1588fb6293916c"
+      "sha256": "c840348455672cad10d133e5c665e4037232eed0dbf119f25afb4267eb69e9cb"
     },
     "config.js": {
       "size": 288,
@@ -61,7 +61,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "db0a472baa298bbf1b0d43be473e6dbe764c33ff26c2c1e4b2d9873b3e062539"
+      "sha256": "21f18e1fbd7104df034a6b4241f0fec60d143408a607aca74f8f825503a1fb7d"
     },
     "logo.svg": {
       "size": 233,
@@ -73,9 +73,9 @@
     }
   },
   "installer": {
-    "version": "0.1.9",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.5/InfiniteCanvas-Setup-0.1.9.exe",
-    "size": 113317886,
-    "sha256": "cc53f78ba0b6a86be959329026ed08cced7428c372aff746f49fa0628dba796f"
+    "version": "0.1.10",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.8/InfiniteCanvas-Setup-0.1.10.exe",
+    "size": 113322167,
+    "sha256": "027411e7f4a4a8907e45327ddb8be53091875602fdab6df66e1c12af0124841d"
   }
 }
