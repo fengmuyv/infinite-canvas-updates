@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.9",
+  "version": "0.20.13",
   "shellApi": 1,
-  "minShellVersion": "0.1.11",
-  "releaseNotes": "资源 0.20.9 / 桌面壳 0.1.11\n\n- 画布媒体节点改为「打开文件位置」：本地原文件直接定位；仅在应用数据库中的媒体首次导出后定位，重复点击复用同一文件。\n- 修复按住节点拖动时滚轮平移、Shift 横移及 Ctrl 缩放造成的跟手偏移，松手不回跳。\n\n本次包含原生文件定位接口，需要桌面壳 0.1.11。旧版请在软件内下载完整桌面更新，安装时沿用原数据目录，项目、素材和渠道配置保留。\n",
+  "minShellVersion": "0.1.13",
+  "releaseNotes": "资源 0.20.13 / 桌面壳 0.1.13\n\n侧边栏 Agent 对话支持拖入或选择 DOCX、TXT，读取正文随消息发送，同时保留图片附件。\n画布生成历史、视频节点拖动与提示词编辑、原生播放控件及本地媒体定位获得改进。\n桌面端提供内置 Agent 运行环境、更新状态反馈和仅安装版分发。\n\n已知限制：先前反馈的白屏原因尚未定位；本版隔离启动未复现。实际 DOCX/TXT 联网发送及接收方安装仍需验收。\n",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.9/canvas-resources-0.20.9.zip",
-    "size": 1262900,
-    "sha256": "4d141ddee47b93f5a08b71f0bdb28f9b6df7b70ba047dc9cfe095545073e0e65"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.13/canvas-resources-0.20.13.zip",
+    "size": 1271376,
+    "sha256": "1b708d10bc69f13398a94227ec7a00d86d7d9e30dc7c1a0e39db3034c4fc84b8"
   },
   "files": {
-    "assets/highlighted-body-OFNGDK62-CPCzbOJJ.js": {
+    "assets/highlighted-body-OFNGDK62-D5_DzbNG.js": {
       "size": 439,
-      "sha256": "8c1a673e827472e4cc54d8ec51137f7c09a350190ca444bebbe951b840ae1d0a"
+      "sha256": "63bc817be84d518827080d19f8d8bf9d5fe29337d8bc6ec64f007b6ac643520c"
     },
-    "assets/index-B1X7uIvs.css": {
-      "size": 111065,
-      "sha256": "9bf94a1a122136aa345f29664df975988f9758f492f53d09be9ed95c22425ed8"
+    "assets/index-CufnpwPP.js": {
+      "size": 3822775,
+      "sha256": "7fdef7bac6f001a9d0a3d19f6b75015a89444bc1ecedaaeed4cc52fd9267739c"
     },
-    "assets/index-CiGNDLal.js": {
-      "size": 3798768,
-      "sha256": "7897ee7d46b179fdc3602ae7c1c9089498846a1c1fa304fe2d299b753a35f013"
+    "assets/index-CVidTmYO.css": {
+      "size": 111214,
+      "sha256": "760812ea22cd9544f7adb679bcb43693d15094f50b0202ab15a3315d708b132f"
     },
     "canvas-release.json": {
-      "size": 87,
-      "sha256": "997e71c5181d5f6c67c452d501135cd27db5748254fecd7b49a9eca395e8c146"
+      "size": 88,
+      "sha256": "8ece410e5b43edf42a18c07acf89b80a9d40591cb53f4fbb8824e6cce0872cd5"
     },
     "config.js": {
       "size": 288,
@@ -61,7 +61,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "7ca75129eaf4b5671317f825da764e4790c4e8e2bb59eaf6f31210e51ccd0bd6"
+      "sha256": "895ad62660a0226d04dd641fab32df5618b6efa6de1eb269829640d287081ec7"
     },
     "logo.svg": {
       "size": 233,
@@ -73,9 +73,9 @@
     }
   },
   "installer": {
-    "version": "0.1.11",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.9/InfiniteCanvas-Setup-0.1.11.exe",
-    "size": 113322941,
-    "sha256": "cf852ecab52e1103c9d6c59e53be7746b6d35b062a2406be2c49104a03b450e7"
+    "version": "0.1.13",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.13/InfiniteCanvas-Setup-0.1.13.exe",
+    "size": 231611891,
+    "sha256": "0216a26b27fc662746e089db8080c83e3d9ab5821be66cc6e82adf638b0f2a7f"
   }
 }
