@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.14",
+  "version": "0.20.16",
   "shellApi": 1,
   "minShellVersion": "0.1.13",
-  "releaseNotes": "优化侧边栏 Agent 对话与日志切换，保留阅读位置和草稿；缓存日志行与详情，大 JSON 按可见区域排版并增量更新。桌面壳继续使用 0.1.13。",
+  "releaseNotes": "修复视频播放后空格无法拖动画布：鼠标移至空白处自动释放视频控件焦点。包含 MegaAi 视频参数与任务状态解析修复，本地参考图片渠道受理仍待验收。桌面壳继续使用 0.1.13。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.14/canvas-resources-0.20.14.zip",
-    "size": 1273251,
-    "sha256": "287dd7a228d7fe5d7a2146067a5acee10e546dfba89f53b2954a35dbed01a8d9"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.16/canvas-resources-0.20.16.zip",
+    "size": 1273903,
+    "sha256": "4d4ccae3bd84852f956b287f7f324b6619c1121e37c13e3bf54d1d2cad02f3be"
   },
   "files": {
-    "assets/agent-log-json-view-FDmRhghf.js": {
+    "assets/agent-log-json-view-C9eVSKXI.js": {
       "size": 1688,
-      "sha256": "a065944fd9e08e79c431a0b5bccb3868de64b30f24f59baacb3e871c59d2eec7"
+      "sha256": "b15907e4c4e4fbe96f82b7a3f0b695629017b03025d9fde4ae783dd50dad59c1"
     },
-    "assets/highlighted-body-OFNGDK62-jNJa1kll.js": {
+    "assets/highlighted-body-OFNGDK62-BhayJUmN.js": {
       "size": 439,
-      "sha256": "ecca7b4cdef6c467f24628723053ff54aec44d6f1435de53d80a5437a6ba92e6"
+      "sha256": "67132d68e933369b8dad6e5a242b685334f3dea698a2e0c8ab8187be09f32624"
+    },
+    "assets/index-B0VmqLtK.js": {
+      "size": 3826842,
+      "sha256": "0be2b06cf6b64d07f793e736cb28b796571375e76fb802428f3145a40595fc03"
     },
     "assets/index-Ch4gfAW-.css": {
       "size": 111379,
       "sha256": "fb026c45e70f8f49bfbbc0e15e13d7088b87343400ce5b1552378a6bec135576"
     },
-    "assets/index-DpT4Y5BV.js": {
-      "size": 3824351,
-      "sha256": "fedae6c57f4d6af65744a92103aedef4908f04ab1690ef678bea77b7a366ae43"
-    },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "6dab1a40b945dff03b7fd687bfb511ac6571c6ad609adf59f2ffb2733a57203d"
+      "sha256": "82091c55000442554e0153463d17abdac98817beb7b5c6a3166c6577d7f5cb0e"
     },
     "config.js": {
       "size": 288,
@@ -65,7 +65,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "bab158dc97308d0fc341a94884c58a418cc99bd986423f7976af76fd20035456"
+      "sha256": "53803a4eee02d9651ebc0c406cf7772d5e40c0abdfb35a3c3ac42007c5d900e7"
     },
     "logo.svg": {
       "size": 233,
