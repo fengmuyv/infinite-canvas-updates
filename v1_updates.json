@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.16",
+  "version": "0.20.22",
   "shellApi": 1,
   "minShellVersion": "0.1.13",
-  "releaseNotes": "修复视频播放后空格无法拖动画布：鼠标移至空白处自动释放视频控件焦点。包含 MegaAi 视频参数与任务状态解析修复，本地参考图片渠道受理仍待验收。桌面壳继续使用 0.1.13。",
+  "releaseNotes": "新增可选颜色画笔、箭头、矩形、椭圆和文字标注，支持撤销重做；修复连续 @ 引用的光标偏移与前文误删；多选素材及组内全部结果可打包 ZIP，同名自动编号、失败明确提示。包含 0.20.17–0.20.21 的渠道目录隔离、MegaAI 视频 JSON 公网参考和 H3 随机种子修复。本地参考缺少已确认公网上传接口时停止提交；真实渠道受理仍待验收。桌面壳保持 0.1.13，沿用已核验安装包。\n",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.16/canvas-resources-0.20.16.zip",
-    "size": 1273903,
-    "sha256": "4d4ccae3bd84852f956b287f7f324b6619c1121e37c13e3bf54d1d2cad02f3be"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.22/canvas-resources-0.20.22.zip",
+    "size": 1291204,
+    "sha256": "5462c8993e17a5f356a88d225e70ed5ee8f99b2f92f0a2077f3e5fa92f2ae0fd"
   },
   "files": {
-    "assets/agent-log-json-view-C9eVSKXI.js": {
+    "assets/agent-log-json-view-4Z_kFdHQ.js": {
       "size": 1688,
-      "sha256": "b15907e4c4e4fbe96f82b7a3f0b695629017b03025d9fde4ae783dd50dad59c1"
+      "sha256": "062eb08a680253fb52f562dfe492a3d6577703f22ef00d0ddb0f4d486b94bba5"
     },
-    "assets/highlighted-body-OFNGDK62-BhayJUmN.js": {
+    "assets/highlighted-body-OFNGDK62-B39krCBM.js": {
       "size": 439,
-      "sha256": "67132d68e933369b8dad6e5a242b685334f3dea698a2e0c8ab8187be09f32624"
+      "sha256": "7b48eab128691fb72ab16107607dbdc5c18699e8c1794d57b73bda8da0717b24"
     },
-    "assets/index-B0VmqLtK.js": {
-      "size": 3826842,
-      "sha256": "0be2b06cf6b64d07f793e736cb28b796571375e76fb802428f3145a40595fc03"
+    "assets/index-CDZfsiGo.css": {
+      "size": 111801,
+      "sha256": "787d4f09fa42dccd9fb8f8d6a9c4e9e63c0fdaa99e7e4547a31625abe2619b12"
     },
-    "assets/index-Ch4gfAW-.css": {
-      "size": 111379,
-      "sha256": "fb026c45e70f8f49bfbbc0e15e13d7088b87343400ce5b1552378a6bec135576"
+    "assets/index-CFwgpZE-.js": {
+      "size": 3877911,
+      "sha256": "1b278a9ac6f78ee83713047531f9df55b980ae1069283f151c96ca87b1dbaf60"
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "82091c55000442554e0153463d17abdac98817beb7b5c6a3166c6577d7f5cb0e"
+      "sha256": "c0d62807f6301ef4dfc81c0afafa213a4d99d07ddc07ef35601b3621a5d514f0"
     },
     "config.js": {
       "size": 288,
@@ -65,7 +65,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "53803a4eee02d9651ebc0c406cf7772d5e40c0abdfb35a3c3ac42007c5d900e7"
+      "sha256": "ee48084bf174a7b6b3c5ad521b8b43329d3c3115e9c2f90208259f6e43a83333"
     },
     "logo.svg": {
       "size": 233,
