@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.28",
+  "version": "0.20.29",
   "shellApi": 1,
-  "minShellVersion": "0.1.16",
-  "releaseNotes": "修复远程参考视频在桌面端读取时的跨域失败；保留已成功匿名下载的 HTTPS 成片链接，供后续参考复用。器灵保持自身默认协议与上传规则，不接个人存储。保留图片、纯文生成、自定义脚本、原件和渠道配置。桌面壳沿用0.1.16。器灵非CB本地上传仍受上游协议限制，算力用户原始报错尚未复现；未宣称全部参考视频已受理。",
+  "minShellVersion": "0.1.17",
+  "releaseNotes": "视频渠道自动匹配明确声明的协议和参数，缺少声明按现有默认值；支持公网参考链接的路径优先OSS，星燃file_id、器灵XP/CB及自定义脚本保留自身协议。加入同窗口多标签画布与Mega型号分组整理。更新桌面壳0.1.17以移除旧客户端图床清理拦截，旧壳请先安装完整桌面版。云端清理不影响本地原件；图床失败或取消时停止提交，不自动重发收费任务。已完成正式窗口小PNG上传、匿名原字节读回及刷新解密测试，真实新站点素材识别、计费和成片仍需分别验收。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.28/canvas-resources-0.20.28.zip",
-    "size": 1299464,
-    "sha256": "1c2a9ba1922dbd71eabf50ecd046cf18ffa39e20fbd406dc642c29780bdb3de0"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.29/canvas-resources-0.20.29.zip",
+    "size": 1305386,
+    "sha256": "40a7a8cc10d0db4ab7ec438c1c848c1d55e5fd6fc35ba5dcf7147fd350034b9b"
   },
   "files": {
-    "assets/agent-log-json-view-DZaLA5sm.js": {
+    "assets/agent-log-json-view-C0wiJPQ8.js": {
       "size": 1688,
-      "sha256": "9ebb3032c9869c530df9ea778a5f8d7e059a79235cac9acd61aee07ccf5831ad"
+      "sha256": "1c540e46d290ab77bd35ea7b74edd6130b67a5dd78862fdc5495725e97a19ada"
     },
-    "assets/highlighted-body-OFNGDK62-BdmxBFow.js": {
+    "assets/highlighted-body-OFNGDK62-B68Y_TK6.js": {
       "size": 439,
-      "sha256": "c7ed241726f55e7351b83638b065eb43ed4a1dd31af315971e6ae8eeb6a96b17"
+      "sha256": "a1ba1886ab5f7c99b3ee108c4e3a429ec5f4d59eebf4f0353ab77f8ce147e145"
     },
-    "assets/index-CDZfsiGo.css": {
-      "size": 111801,
-      "sha256": "787d4f09fa42dccd9fb8f8d6a9c4e9e63c0fdaa99e7e4547a31625abe2619b12"
+    "assets/index-ao9NC2ed.css": {
+      "size": 112039,
+      "sha256": "310e9136f78a465bacd27991591b4d48e7e14226b7307c604cc13867fb731c1b"
     },
-    "assets/index-CoqtJZtW.js": {
-      "size": 3900308,
-      "sha256": "9c670f774c739867ec7da5451a99bf0cfdae551b3b6a19340b9f1c7554cf32bd"
+    "assets/index-Dzxyfl6H.js": {
+      "size": 3918024,
+      "sha256": "60140390193c65718a0da04a616122818f8b4e62a85de2c25d1fb555dcbcbb05"
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "6a065fe760d72187f9b2edea22134ce3334806f16a12cf35f1e8817f920a1589"
+      "sha256": "4ecdb80760ed6f1a93884f6c6b0c5d60c2402c184fe915eaafa1aa0e031bf2b5"
     },
     "config.js": {
       "size": 288,
@@ -65,7 +65,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "ea5b7844cdcb6227647fe9ce54a030c37d8b073e42867eafb4c1b0950eaa6780"
+      "sha256": "f1ae379b0f1b16d5ebcc02c3b829fc9e6743ece703d8453e6873a949210695d0"
     },
     "logo.svg": {
       "size": 233,
@@ -77,9 +77,9 @@
     }
   },
   "installer": {
-    "version": "0.1.16",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.27/InfiniteCanvas-Setup-0.1.16.exe",
-    "size": 233388658,
-    "sha256": "f4f6289fc11991cdaef4df7bdaa3fee6db788177f9d50a862e31ecf07bb1fa3c"
+    "version": "0.1.17",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.29/InfiniteCanvas-Setup-0.1.17.exe",
+    "size": 233395600,
+    "sha256": "b8c63e20dedcab58ee71c8218894830c8dc1c89c9b545e0dbf385d93ef26f0da"
   }
 }
