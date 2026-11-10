@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.42",
+  "version": "0.20.43",
   "shellApi": 1,
-  "minShellVersion": "0.1.30",
-  "releaseNotes": "修复旧Agent会话沿用旧渠道导致第三方Key误发官方接口的401，恢复时跟随本机Codex当前渠道并核验实际配置；修复Windows默认Electron图标。仅连接本机Codex，保留原历史与账号，包含压缩添加修复，不含视频工作台。随附Agent及EXE资源变化需要桌面组件0.1.30。",
+  "minShellVersion": "0.1.31",
+  "releaseNotes": "第三方Codex模型菜单仅显示当前工作空间明确配置的完整型号，不再把原生候选目录误当已接入型号；本机配置gpt-6.1-sol时仅显示该型号。保留401渠道恢复、应用图标及压缩添加修复，不合入视频工作台。随附Agent变更需要桌面组件0.1.31。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.42/canvas-resources-0.20.42.zip",
-    "size": 7137696,
-    "sha256": "e99276b41561bfd604852800640d425be8f90594bde61a6932ed4e605da6a907"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.43/canvas-resources-0.20.43.zip",
+    "size": 7137693,
+    "sha256": "945ba27b1c8462fb8eb74887dd43e2e915703b519e5b43f48a84264d65ce2e92"
   },
   "files": {
-    "assets/agent-log-json-view-Diw1VeUv.js": {
+    "assets/agent-log-json-view-CetxUdau.js": {
       "size": 1688,
-      "sha256": "936c0e3c66d461f79a17e20a9ee95174d3db927498fe8cc9b6f290dd3f15a41b"
+      "sha256": "b579799da7794b122b0b31dbe56900e516651a50243805c073b314be30e0dce3"
     },
-    "assets/highlighted-body-OFNGDK62-BwbfJNkS.js": {
+    "assets/highlighted-body-OFNGDK62-BnbvnIwv.js": {
       "size": 439,
-      "sha256": "705fc18cc6bcd65a5083aa6059a882fa3f9b29948db4b6ed85c982dcfb2b832a"
+      "sha256": "805a0839b0c359390e1da35eb33ec0083d5ca776db25034c017f87db911665b2"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,9 +27,9 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
-    "assets/index-D4ab79lx.js": {
+    "assets/index-BDFOAe4f.js": {
       "size": 3972882,
-      "sha256": "0e1a4344ad7ace68e97b32c8f454ac4d2c942af5fe8deb7a4856950e826b3b8c"
+      "sha256": "1a113c6565797c2ba989f174f6ab0010279fe566fa5ca213d59f59fad615cef9"
     },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
@@ -65,7 +65,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "b6f2ccd02b16ead53d0dc761c831a6565f31dd654663348329cf3000d53aa5d1"
+      "sha256": "9446b7df32b73be5c555a0aa750e9429079cff2a823ed75c85a348b5c004427d"
     },
     "config.js": {
       "size": 288,
@@ -101,7 +101,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "112b35bdd129652ea28bff1a850368f0db23969eaa8f510ad3d7854964528c6a"
+      "sha256": "bf204262ea6a12a5cd516770f9c580e2ffb6d557ab77c8a1ee8cf6e7e491e049"
     },
     "logo.svg": {
       "size": 233,
@@ -113,9 +113,9 @@
     }
   },
   "installer": {
-    "version": "0.1.30",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.42/InfiniteCanvas-Setup-0.1.30.exe",
-    "size": 147478673,
-    "sha256": "068ab324c80dcedb4cfc88c069b76269e72bc4913ec20beaaf3df0c4f4a753ec"
+    "version": "0.1.31",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.43/InfiniteCanvas-Setup-0.1.31.exe",
+    "size": 147478513,
+    "sha256": "ee4aca48a0a0eb1033d64aaae2530b37e0e6d4693d2417d96e38ff1ec4824035"
   }
 }
