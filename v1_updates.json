@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.40",
+  "version": "0.20.41",
   "shellApi": 1,
   "minShellVersion": "0.1.28",
-  "releaseNotes": "图片压缩支持10MB与自定义目标，可允许降低画质并保留原图；移除内置Codex，仅使用本机Codex及其真实模型目录，生成区分素材准备、上传提交与已创建任务；汇总项目单源存储、素材恢复、图片参数、标注和更新流程修复。排除视频工作台独立模块。需NSIS桌面壳0.1.28。",
+  "releaseNotes": "修复压缩后添加到画布时弹窗重置；移除压缩结果下载入口，仅保留添加。桌面壳0.1.29修复Windows启动环境找不到本机Codex，继续使用外部Codex与原模型、账号及线程。压缩资源兼容桌面壳0.1.28，不包含视频工作台。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.40/canvas-resources-0.20.40.zip",
-    "size": 7137719,
-    "sha256": "f8d5d512adc1f7e4ef91124aad1a1288409cd1f9561d6345899c485048e75a63"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.41/canvas-resources-0.20.41.zip",
+    "size": 7137694,
+    "sha256": "4db787caf3c7f2cc72820236747bf4f855ffa2ef0fcd8166da00373eb61a700a"
   },
   "files": {
-    "assets/agent-log-json-view-BFmhvwb8.js": {
+    "assets/agent-log-json-view-BVumgLms.js": {
       "size": 1688,
-      "sha256": "7bd1d3a6c8b92867c0eb079fe1d182c0acd392b995e39807a21476e7634c6188"
+      "sha256": "b68044303a9bce5cec7570aab50b7fa8bb79af557824dcd239caae477d30ee04"
     },
-    "assets/highlighted-body-OFNGDK62-IDdVWJCD.js": {
+    "assets/highlighted-body-OFNGDK62-BPVpBVJ2.js": {
       "size": 439,
-      "sha256": "5f628b42a9d2139542fd49eb654f111588a14453729ff69e09900cfe0371619f"
+      "sha256": "980f8bfcad2fa6211a3a06c850af72322a6bc2c89f834adcee0771c7b0266ed5"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,10 +27,6 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
-    "assets/index-CZh_5apW.js": {
-      "size": 3973366,
-      "sha256": "99ae82e792e1cc20a1ba03c843b55e145ab0dd35b7d278736b2d367497f4af39"
-    },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
@@ -38,6 +34,10 @@
     "assets/index-ozSAjzUA.css": {
       "size": 112505,
       "sha256": "e54024d5ff6f058a1773fa82dcba83e5150d6f0b331caaf3b4896e7134b03ac5"
+    },
+    "assets/index-yL8FA7Kp.js": {
+      "size": 3972882,
+      "sha256": "57e480e2df8d15408eee6e40bc3890ac99a42f6a4e03535ad6316f19489a2d21"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -65,7 +65,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "0a182e4accd2f72a26428b3c3918a84eff6cfbae47980b00a6630d47664b3ca9"
+      "sha256": "105c974a988bd57f6b5033b1f213cbfcf11203887a608c8c889fa3b5bdc19b77"
     },
     "config.js": {
       "size": 288,
@@ -101,7 +101,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "9678e968839763356badaf2e7f240b04cd93d4d1e1f93c61c6e470b77f3b873f"
+      "sha256": "7f86e59d12f5194fc9f061f48dc81e2c59aa8c46040584653c68e231745d8c62"
     },
     "logo.svg": {
       "size": 233,
@@ -113,9 +113,9 @@
     }
   },
   "installer": {
-    "version": "0.1.28",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.40/InfiniteCanvas-Setup-0.1.28.exe",
-    "size": 147478230,
-    "sha256": "eec7c36aac55784f2371e11363ee3d32a00a4239938946be79d2b4b63001d091"
+    "version": "0.1.29",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.41/InfiniteCanvas-Setup-0.1.29.exe",
+    "size": 147479274,
+    "sha256": "96ce343b050e5b06cb66fc3f7470f255f1a5b550eb67386b31d8f31fcb87f4f3"
   }
 }
