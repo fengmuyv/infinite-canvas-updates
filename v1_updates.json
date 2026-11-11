@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.43",
+  "version": "0.20.44",
   "shellApi": 1,
-  "minShellVersion": "0.1.31",
-  "releaseNotes": "第三方Codex模型菜单仅显示当前工作空间明确配置的完整型号，不再把原生候选目录误当已接入型号；本机配置gpt-6.1-sol时仅显示该型号。保留401渠道恢复、应用图标及压缩添加修复，不合入视频工作台。随附Agent变更需要桌面组件0.1.31。",
+  "minShellVersion": "0.1.32",
+  "releaseNotes": "修复画布素材闪烁、文件占用与路径变化后的恢复，保护读取异常和保存失败时的项目与素材引用；完善重复上传、撤销重做、分组复制、项目包导入导出、历史提示词及视频控件，并合入独立视频工作台。更新安装只等待保存完成。含桌面组件变更，需要NSIS桌面壳0.1.32；已完成本机安装及综合压力验证，其它电脑和长期故障现场仍待验证。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.43/canvas-resources-0.20.43.zip",
-    "size": 7137693,
-    "sha256": "945ba27b1c8462fb8eb74887dd43e2e915703b519e5b43f48a84264d65ce2e92"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.44/canvas-resources-0.20.44.zip",
+    "size": 7145558,
+    "sha256": "dd56dd813e5e4d3dfe9ba2aa23e2e3f62fbaf30a143eecaece324a1b9f8ab056"
   },
   "files": {
-    "assets/agent-log-json-view-CetxUdau.js": {
+    "assets/agent-log-json-view-BMJG__-W.js": {
       "size": 1688,
-      "sha256": "b579799da7794b122b0b31dbe56900e516651a50243805c073b314be30e0dce3"
+      "sha256": "fa8656d35b9428ddde23eb41fc5e0f517a76dae74477e51e8b0146574bf63ead"
     },
-    "assets/highlighted-body-OFNGDK62-BnbvnIwv.js": {
+    "assets/highlighted-body-OFNGDK62-BHnMDIue.js": {
       "size": 439,
-      "sha256": "805a0839b0c359390e1da35eb33ec0083d5ca776db25034c017f87db911665b2"
+      "sha256": "c9094bdf9fa94792b9a3810ac59a3479fd9669caf578b393eb8d7fc833f76567"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,17 +27,21 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
-    "assets/index-BDFOAe4f.js": {
-      "size": 3972882,
-      "sha256": "1a113c6565797c2ba989f174f6ab0010279fe566fa5ca213d59f59fad615cef9"
+    "assets/index--bVtbjge.js": {
+      "size": 28159,
+      "sha256": "3a66c2544b506aad66198647cfa6f868dea3a9ecb1eed83b2c7e359b6eeabc6e"
+    },
+    "assets/index-C7daV5E3.css": {
+      "size": 112340,
+      "sha256": "0f1b55d394c1fc6184e81c14705dac9c6e1ed6531fb80ac3637f9e7062796ae8"
     },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
     },
-    "assets/index-ozSAjzUA.css": {
-      "size": 112505,
-      "sha256": "e54024d5ff6f058a1773fa82dcba83e5150d6f0b331caaf3b4896e7134b03ac5"
+    "assets/index-Dmti2IET.js": {
+      "size": 3957614,
+      "sha256": "95a5a98483512bdaf4a2da67d5e5d9da9923bc248dbef3e3904b78b3fa0f3e0c"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -65,7 +69,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "9446b7df32b73be5c555a0aa750e9429079cff2a823ed75c85a348b5c004427d"
+      "sha256": "4b99e6197cb286c5dd9928dcf4e6c1fcd8122ced835c3d23c8875f9e9d7e280d"
     },
     "config.js": {
       "size": 288,
@@ -101,7 +105,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "bf204262ea6a12a5cd516770f9c580e2ffb6d557ab77c8a1ee8cf6e7e491e049"
+      "sha256": "e02270fd2ae284160633fc432f37902633b53a78192964cd95a7f65579d5f98e"
     },
     "logo.svg": {
       "size": 233,
@@ -113,9 +117,9 @@
     }
   },
   "installer": {
-    "version": "0.1.31",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.43/InfiniteCanvas-Setup-0.1.31.exe",
-    "size": 147478513,
-    "sha256": "ee4aca48a0a0eb1033d64aaae2530b37e0e6d4693d2417d96e38ff1ec4824035"
+    "version": "0.1.32",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.44/InfiniteCanvas-Setup-0.1.32.exe",
+    "size": 147490239,
+    "sha256": "6dac55897fa7baa58f6f0a1cbd6882b9ddc7a4761c98f6b6e23c76d754f3ef2a"
   }
 }
