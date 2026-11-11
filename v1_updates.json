@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.45",
+  "version": "0.20.47",
   "shellApi": 1,
   "minShellVersion": "0.1.33",
-  "releaseNotes": "视频文件操作和播放选项统一到右下角三点菜单，主视频与历史结果共用播放、进度、音量、倍速、全屏和画中画。保存到指定文件夹使用系统另存为，支持目录与文件名选择，完整核验后提示成功，只创建副本并保留原视频及画布引用；取消不保存。新增原生保存接口，本次必须配套桌面壳0.1.33。已通过同会话综合45项及视频另存36项实测。",
+  "releaseNotes": "修复自定义视频取片格式及已有成片保存，显示服务器HTTP错误原因；生图参考图逐项保留成功文件并说明坏图原因；删除当前画布增加确认。仅更新前端资源，桌面壳保持0.1.33，个人渠道配置和素材不随包发布。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.45/canvas-resources-0.20.45.zip",
-    "size": 7147493,
-    "sha256": "67619e9540003fb28b8fdfa49737a207887b73605bb9e5247c077ec65d931f43"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.47/canvas-resources-0.20.47.zip",
+    "size": 7147867,
+    "sha256": "7f539f09c26e38e816c2d938ff8b6843f162fff8ccdc723606aff585e2bf046e"
   },
   "files": {
-    "assets/agent-log-json-view-D2vNSOth.js": {
+    "assets/agent-log-json-view-DrTNtg9n.js": {
       "size": 1688,
-      "sha256": "6f60458e4cbe533941e52039b2695390a969685b0718af7d34a1811a2627da4e"
+      "sha256": "62a4a9fed7a6c9f3383e5651a5df384b6b7ee5c77cebc461cad64a47ac7e2db3"
     },
-    "assets/highlighted-body-OFNGDK62-BCM00gEv.js": {
+    "assets/highlighted-body-OFNGDK62-BcDVUgvd.js": {
       "size": 439,
-      "sha256": "330863d6ffaa1f902ae11df6fd7f0bf7e95085dd6d4fcaa3b63b114bdfc901d9"
+      "sha256": "2b40796504286c56913ef1aeed02d7af767a0d5442c12ad9833ef107ca46086e"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,6 +27,10 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
+    "assets/index-BuiVn-BM.js": {
+      "size": 3964807,
+      "sha256": "357631a50b8158af768ccd02379484d537368d71eae98d22708eca5f7d46d05f"
+    },
     "assets/index-D-7Ha2qW.css": {
       "size": 113079,
       "sha256": "b54906fe03cb85d73fc7b127649d376ffed0356dc7841eb7cb0fce26cc75ade5"
@@ -35,13 +39,9 @@
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
     },
-    "assets/index-Ds_xAkcq.js": {
-      "size": 3963803,
-      "sha256": "dab3761194ac5178c56ff1d7d7cfeb8b9ea27844de27ccbc72dfaab47f52fc40"
-    },
-    "assets/index-DVgqMk-z.js": {
+    "assets/index-rUO7HfeJ.js": {
       "size": 28159,
-      "sha256": "5edf629c62c966d83d235513c574b275ebb23bfd1bbe898dfe4ef288fe15270a"
+      "sha256": "70471a58500e534d4ccdc10b95aa5ec28149b8fa6ca35479a94eb0e07375651e"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -69,7 +69,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "144fdd7a63102fbfd3c876b04c2cedfbd75a0b1098f1a86a31206de6b3d333d3"
+      "sha256": "863a0d96edb83ee575d211f2e8f40b34d12f58b3dd84965583b748e7c296acd5"
     },
     "config.js": {
       "size": 288,
@@ -105,7 +105,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "d13d89ecb8f4d60d69d57d4312852c90afdba2bb751892b30576afac810a9386"
+      "sha256": "13bec50c7188cf656bc50d15b9fa381309e3688b851e6d63fe0d8a65ec0dfaab"
     },
     "logo.svg": {
       "size": 233,
