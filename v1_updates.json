@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.54",
+  "version": "0.20.55",
   "shellApi": 1,
-  "minShellVersion": "0.1.34",
-  "releaseNotes": "视频复制后创建空白节点，保留提示词、参数及参考连线。展开历史后，从各结果播放器的「⋮ → 以此提示词新建空白节点」恢复该次提交的提示词、参数与多参考顺序；缺失或变化的参考明确提示并拦截生成。旧记录缺少完整快照时不猜补。仅更新资源，桌面壳保持0.1.34。",
+  "minShellVersion": "0.1.35",
+  "releaseNotes": "器灵SD2.5（含WN）缺少能力条目时，沿用正常默认参数和型号清晰度提交，不再仅因缺少声明拦截。节点保存到指定文件夹后记住上次成功目录，主结果与历史共用，重启仍保留；取消或写出失败不重置。需要完整桌面壳0.1.35，配套资源0.20.55。个人项目、素材及渠道配置不随包上传。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.54/canvas-resources-0.20.54.zip",
-    "size": 7157956,
-    "sha256": "456435b7b9a5bd6f1cef8674097edd02e74bf145b149d3027b3320d6ef2b59ba"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.55/canvas-resources-0.20.55.zip",
+    "size": 7158017,
+    "sha256": "40b074243ad3691da553d75e83470f90bbf5452c34df4f3e43b5f4851e91329b"
   },
   "files": {
-    "assets/agent-log-json-view-uG4bCkbg.js": {
+    "assets/agent-log-json-view-BpGwFVX0.js": {
       "size": 1688,
-      "sha256": "5b61fc9096895986961bd214f74e6d3f89e7b6ba60dd63ed70156da585aa7de0"
+      "sha256": "a6808af5b2999b2396cdd7db3f3c829eee2bc05f0a5546da4d004ae6aae54139"
     },
-    "assets/highlighted-body-OFNGDK62-DDDWvKHX.js": {
+    "assets/highlighted-body-OFNGDK62-D2NhzqIM.js": {
       "size": 439,
-      "sha256": "733d4d46ff79e719bfcba229b22bdb80464dc477d02897c484a809804f0ec5b1"
+      "sha256": "4750c3ea644d7283478fc25bb366921a4eb3166fcb51ae9835d6334d3572cea5"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,10 +27,6 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
-    "assets/index-B0fYItQX.js": {
-      "size": 3991998,
-      "sha256": "d509cebb5e2378326f8de23875aabeb4d444ff0300fd506d3a400faffad3a0b1"
-    },
     "assets/index-BbKj8K67.css": {
       "size": 117138,
       "sha256": "e8d7871c2cf5b182c01dbfbbc4caeb37a37bc96208e33afa491ed3ed6dcc52b8"
@@ -38,6 +34,10 @@
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
+    },
+    "assets/index-oNrDMHQb.js": {
+      "size": 3992166,
+      "sha256": "7379e6436b1b3287f5097c142d412939e82aaa4b1e93b3df8ac6556f898d1243"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -51,9 +51,9 @@
       "size": 15488888,
       "sha256": "9d4d47d8cce4317c8dd2c05a57d896d71d99af454ac5d2ab51b43058cee417ae"
     },
-    "assets/project-page-caMlqHGW.js": {
+    "assets/project-page-CZiZdcA1.js": {
       "size": 17734,
-      "sha256": "2969b85c5181548fa4f369b7d3f62f6b198976701f4505749891bb632be3ff30"
+      "sha256": "bb2216ed622859cb5b4573070ba71b065bdcab9b684a46f36f25b0d4d33ef3ef"
     },
     "assets/project-page-DJqd8JLj.css": {
       "size": 5650,
@@ -73,7 +73,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "fb50de4cb9a73363f89d1e36e050ad14ec50e5155d22a8ce7a1bcbea09a0d76e"
+      "sha256": "c0301715ee7b723c7cfe7459915361ef95029cc789df360b2ebc75e5b9efb414"
     },
     "config.js": {
       "size": 288,
@@ -109,7 +109,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "6fa4551f909657f569a47103c0e318531d2c5cb60f3276e846d9d7146f5ed4ff"
+      "sha256": "2a9962ebc1edcc503d382bef400da84320f3a81cce3c0b4f46a3ede8c109e398"
     },
     "logo.svg": {
       "size": 233,
@@ -121,9 +121,9 @@
     }
   },
   "installer": {
-    "version": "0.1.34",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.48/InfiniteCanvas-Setup-0.1.34.exe",
-    "size": 147497064,
-    "sha256": "c8fa0d84fc1d5d1ba71ef572e188481d7f717cdf4ff5d22d015628debbb9b147"
+    "version": "0.1.35",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.55/InfiniteCanvas-Setup-0.1.35.exe",
+    "size": 147504420,
+    "sha256": "98da573ec2ee06dcc49cad760806d82d243f6bb495a254656cf5b55a52f784c5"
   }
 }
