@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.56",
+  "version": "0.20.57",
   "shellApi": 1,
   "minShellVersion": "0.1.36",
-  "releaseNotes": "视频工具栏新增本地去字幕，范围框支持移动及八点缩放，统一ProPainter→DiffuEraser，真实后台处理与前后对比，保留原片另建节点。修复扫描外部软件归档导致长期文件占用，找齐后收窄监听，取消和超时停止搜索。需要桌面壳0.1.36，配套资源0.20.56；去字幕复用本机已有模型环境，安装包不含模型。个人项目、素材及渠道配置不随包上传。",
+  "releaseNotes": "圈好字幕范围并开始处理后，立即创建转圈视频节点，完成后自动填入，保留原视频。删除处理中节点自动取消对应任务；提交回执迟到也会取消，不复活已删节点。切换项目或收起工具继续处理。仅更新资源，桌面壳保持0.1.36，沿用既有安装包及本地模型环境。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.56/canvas-resources-0.20.56.zip",
-    "size": 7166857,
-    "sha256": "fade97575a8d2c659030e9c770cbe22c3a2a9c50b90ff392d5424d1c01a04b0d"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.57/canvas-resources-0.20.57.zip",
+    "size": 7168679,
+    "sha256": "e1d618e2209133b2ee6560e447501d436b59159262a9f5c55d1f98c216b1f36e"
   },
   "files": {
-    "assets/agent-log-json-view-BjY1QizL.js": {
+    "assets/agent-log-json-view-uPRy9N7Q.js": {
       "size": 1688,
-      "sha256": "8994536fa248a17c3cc3e200d023a605ddf53293aa43fc830a5549053ce52bb4"
+      "sha256": "cf57f086b5ad9d4d9207a4aa952f555bc15908179289616ffbd05aed96a72894"
     },
-    "assets/highlighted-body-OFNGDK62-VCVBpJs3.js": {
+    "assets/highlighted-body-OFNGDK62-KaPTYgxV.js": {
       "size": 439,
-      "sha256": "2c67300c913c8528425c5fd9e850c58120cb0297e81f651cb3ce98f4f8fea62b"
+      "sha256": "e989ac50eddedaf61ce47a0470bd757f3b3c51ec4390d436a48ab4296a0207a7"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -31,13 +31,13 @@
       "size": 128017,
       "sha256": "edd1df93b0ec24cdb23108449d55567f4cae64f6e7d0c8bf99c7a079ecc49692"
     },
+    "assets/index-D0O2xKPa.js": {
+      "size": 4016392,
+      "sha256": "b42ccdbb8cb2999030155a4d7145a8dba97f51ebbf26fe06026f06f661835c8d"
+    },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
-    },
-    "assets/index-DbStGtsF.js": {
-      "size": 4010921,
-      "sha256": "21a0e8de90eae8cf0165ad1de01edd1b8a55d5cf3ace1a8424f42673810aa57d"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -51,9 +51,9 @@
       "size": 15488888,
       "sha256": "9d4d47d8cce4317c8dd2c05a57d896d71d99af454ac5d2ab51b43058cee417ae"
     },
-    "assets/project-page-CHibp2n_.js": {
+    "assets/project-page-D72Uj7z-.js": {
       "size": 17605,
-      "sha256": "e857a008b7d177a5b7a8f0a64673c953d52ce99b6c402f02d0a25eff63172f2f"
+      "sha256": "3be41ca03cd848f4aa0d5b31070521ed00a6c10319cb781ed5a3ef93fcada52c"
     },
     "assets/project-page-DJqd8JLj.css": {
       "size": 5650,
@@ -73,7 +73,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "5b19ce8360c0255b97f34a78f3a1a4d597c5e4fd1ccc23c9f5507ff765c90d02"
+      "sha256": "ff6a5397b7770959567cdd4eb4ec2fbad7325e08da3d4519e3bc0c60a0a30095"
     },
     "config.js": {
       "size": 288,
@@ -109,7 +109,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "b3874dfc2def4369433ee990a3c7ebcd2ce51d101011444527b68f23c232582c"
+      "sha256": "63636416cf70486baed0670f2acb26c483f0ff97b2c6849a150f74c9ece45390"
     },
     "logo.svg": {
       "size": 233,
