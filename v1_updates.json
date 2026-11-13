@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.63",
+  "version": "0.20.64",
   "shellApi": 1,
   "minShellVersion": "0.1.39",
-  "releaseNotes": "修复侧栏拉线松开打开新建菜单后，再点画布空白无法取消的问题。侧栏只指定该行源节点，后续拖动、松开、菜单和键鼠操作统一复用正常节点流程，移除侧栏独有的任意键／非左键拦截；两入口共用画布外松开、失焦、源删除等清理。181项交互与关联回归通过，原长按跟随、滚轮、眼睛开关及悬浮预览保持可用。仅资源更新，桌面壳保持0.1.39，原样复用已有NSIS，不含项目、素材、个人配置或凭据。",
+  "releaseNotes": "新增视频工作台分镜任务监控，支持失败分类、原任务取回与有限或不限次数重试，成功保存后逐镜结束；图片与视频再次生成以同尺寸转圈卡片叠盖旧结果，保留原历史展开并支持节点外点击收起。综合压力测试覆盖常用编辑、剪贴板、分组连线、混合上传、图片工具、视频播放器、工作台、导入导出及保存重开，修复项目保存失败提示重试后残留并遮挡操作的问题。仅资源更新，桌面壳保持0.1.39，复用已核验NSIS，不含项目、素材、个人配置、凭据或测试证据。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.63/canvas-resources-0.20.63.zip",
-    "size": 7170053,
-    "sha256": "35be39b39032e3ba07c4eeb8604d66713a8a74f7baed22990e71bd099fc43a43"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.64/canvas-resources-0.20.64.zip",
+    "size": 7178715,
+    "sha256": "3718c9c52ac322715fc9c2ef4a200aa15a81538d1a50bc3f2c0eb640dcf06313"
   },
   "files": {
-    "assets/agent-log-json-view-DT6IlACl.js": {
+    "assets/agent-log-json-view-OiXcAtsb.js": {
       "size": 1688,
-      "sha256": "0bcefb9940a38dbe6784840383601b0f83df771ddfb72cdf4e9fe65701152368"
+      "sha256": "24d395af1a54de6fabbb0f8c136cf28d079be866bf24c6b4ffbd4edfe3c69195"
     },
-    "assets/highlighted-body-OFNGDK62-BAj2KOLR.js": {
+    "assets/highlighted-body-OFNGDK62-CobU90P0.js": {
       "size": 439,
-      "sha256": "795d35718e11633b07c83d8dc6950c635f72c1efdb87481eef2cff2e43c8aaa8"
+      "sha256": "60c5a01a2370885a254cf39df903937c6b447db899033c16f88d84f10989bb27"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,17 +27,17 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
+    "assets/index-CpMehxOj.js": {
+      "size": 4035068,
+      "sha256": "1c630af42bd4fddb34b1432214ba4d9fb255c31d6324d23fc79e7509fcc5ae29"
+    },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
     },
-    "assets/index-D5q1jMD1.css": {
-      "size": 127932,
-      "sha256": "e3646861c689f9d559610bb86508a54602d8d568fb389b5822962813cbb8fee5"
-    },
-    "assets/index-DTunV_Lb.js": {
-      "size": 4021385,
-      "sha256": "e91025ec983af85500d28e3480f9510b976a5389384ac5a3927c7e2bff46e936"
+    "assets/index-DgcAOYHE.css": {
+      "size": 127936,
+      "sha256": "67ef19b8ecca4f4a8e810a3d80a627a019886f83741b46556cd7017b9e2707a6"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -51,13 +51,13 @@
       "size": 15488888,
       "sha256": "9d4d47d8cce4317c8dd2c05a57d896d71d99af454ac5d2ab51b43058cee417ae"
     },
-    "assets/project-page-BItiagOo.js": {
-      "size": 17605,
-      "sha256": "d3545288e93143b416fdaa8e53d0a2619db49be93f5b4cdc31c175db2efd4115"
+    "assets/project-page-BdfJpIrl.js": {
+      "size": 25675,
+      "sha256": "983650804d518ceb32de5d68ec767a77d4afae57406b0b8864a1dfe5c36f52fa"
     },
-    "assets/project-page-DJqd8JLj.css": {
-      "size": 5650,
-      "sha256": "a5a7a85d67c45cd66bf8b61b22badfc992fc58dcba4554174bb582af84a30424"
+    "assets/project-page-BkhOu_w5.css": {
+      "size": 11110,
+      "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
     "assets/squoosh_oxipng-Fi8zpv9C.js": {
       "size": 2957,
@@ -73,7 +73,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "f9a5dd0f1d95c00b5ebb8940dada3b607f78333ed9a2839658bba8215d3cc795"
+      "sha256": "68da5b0f61991d7ad70ae210d04ffcd36081982d0b37ddb9425e7bba7a54fa62"
     },
     "config.js": {
       "size": 288,
@@ -109,7 +109,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "934f353e88b7b97b8514dffaf754fdbfdee4f26a038db10aabbd8809232da4e2"
+      "sha256": "bc4f2b0ba517996214582ef80e782e4c908564c7081c0471b68844df3b93abd4"
     },
     "logo.svg": {
       "size": 233,
