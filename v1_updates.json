@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.61",
+  "version": "0.20.62",
   "shellApi": 1,
   "minShellVersion": "0.1.39",
-  "releaseNotes": "侧栏列表新增最右侧连线按钮，支持单击跟随和按住拖线、空白新建节点并连接；其他鼠标按键或键盘取消，完整消费同次组合快捷键。增加默认开启并记住选择的悬浮大图开关，仅图片缩略图触发，拉线时自动隐藏。Agent入口按真实连接变绿／灰，GitHub入口提供当前版本仓库及初始来源。151项交互及关联回归通过。仅资源更新，桌面壳保持0.1.39，沿用已有安装包；不含项目、素材或个人配置。",
+  "releaseNotes": "侧栏仅保留按住拖线，与节点输出端共用启动、跟随、吸附及松开连接流程，修复按住时线头停滞和单击残留占用选择；Shift／Ctrl／Cmd配合滚轮平移或缩放不会取消，视口变化后线头保持跟随。侧栏眼睛保留原图片详情，同一按钮再次点击关闭、另一行切图，并显示预览选中状态。128项交互与关联回归通过。仅资源更新，桌面壳保持0.1.39并原样复用已有NSIS，不含项目、素材、个人配置或凭据。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.61/canvas-resources-0.20.61.zip",
-    "size": 7170872,
-    "sha256": "a6fa3f0540ebe56aa4b49a222c6bc24302c3fa930b041f07f7ff51f8f3b7adea"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.62/canvas-resources-0.20.62.zip",
+    "size": 7170793,
+    "sha256": "0bf3eaedb2211d5b94a682857c128d49e79d758e37d31795b89eb323fcef2ca2"
   },
   "files": {
-    "assets/agent-log-json-view-or1NCnHb.js": {
+    "assets/agent-log-json-view-dl9xiP1y.js": {
       "size": 1688,
-      "sha256": "d0a1b269f9d5421154027d7f96d1db8164b9231acafea44b9b3be4e1baadcc5d"
+      "sha256": "a12abd1ae1687b6355f8658fec1dff07c2ea823df0b1c1ed28cde5f6da194d29"
     },
-    "assets/highlighted-body-OFNGDK62-ClpRJ0X2.js": {
+    "assets/highlighted-body-OFNGDK62-tXZZ6Wak.js": {
       "size": 439,
-      "sha256": "a020252507f71d3391dabb6962af596284e0bfbcce98126e80f51fa4e86f5e86"
+      "sha256": "44e37df84cc943c50994c7b4313ea973ad5391ec515e5597816c3c7a8b1df358"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,6 +27,10 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
+    "assets/index-0lyM1z9P.js": {
+      "size": 4023441,
+      "sha256": "91e2576d3cb24661db89dd1f9751f77c783d786b0cb653bd20eedde8ee4c22a5"
+    },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
@@ -34,10 +38,6 @@
     "assets/index-D5q1jMD1.css": {
       "size": 127932,
       "sha256": "e3646861c689f9d559610bb86508a54602d8d568fb389b5822962813cbb8fee5"
-    },
-    "assets/index-DbZPf8bM.js": {
-      "size": 4023574,
-      "sha256": "2c91f0dd583554942d2a5d1581dbfbe2c8cb938280a473ce698876fef3dc89a5"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -51,13 +51,13 @@
       "size": 15488888,
       "sha256": "9d4d47d8cce4317c8dd2c05a57d896d71d99af454ac5d2ab51b43058cee417ae"
     },
+    "assets/project-page-BMk7dHja.js": {
+      "size": 17605,
+      "sha256": "ef646edcef63c6b055b18b913cf052d09c4a537354b4a787784b1b7f31a780e0"
+    },
     "assets/project-page-DJqd8JLj.css": {
       "size": 5650,
       "sha256": "a5a7a85d67c45cd66bf8b61b22badfc992fc58dcba4554174bb582af84a30424"
-    },
-    "assets/project-page-Pp2OprUZ.js": {
-      "size": 17605,
-      "sha256": "ce43fe9db6757ed7109c082382f810929b6785fcb5fa30c6c63cee74385a6cd3"
     },
     "assets/squoosh_oxipng-Fi8zpv9C.js": {
       "size": 2957,
@@ -73,7 +73,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "a01d64effb2ad44ecf758a6aceac252c4b17e3c5f207d0bf784b7b74be96a970"
+      "sha256": "6a892d1cd5de62b6068ab3871367813a53479f071fbd1fadefb23ddb70ed1d18"
     },
     "config.js": {
       "size": 288,
@@ -109,7 +109,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "cdbd96ae1f37984531b30ccd08a62b3b510c98ed41504635db6a91f58321475d"
+      "sha256": "5a58bb5aeb0dad92ebb1440dc7d0244b159486885a0ae81a74db03cbfeb493f7"
     },
     "logo.svg": {
       "size": 233,
