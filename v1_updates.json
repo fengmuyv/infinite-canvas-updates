@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.69",
+  "version": "0.20.70",
   "shellApi": 1,
   "minShellVersion": "0.1.40",
-  "releaseNotes": "移动云H3通用协议随资源更新分发：新建渠道、测试连接及模型选型统一获得型号映射、查询头和三类参考素材角色；已有H3未配置脚本时自动使用内置适配。纠正移动云MiniMax M系列文本型号误入视频目录，保留个人凭据、用户自定义脚本、报价及禁用范围。桌面壳保持0.1.40，沿用已核验NSIS；不包含个人配置、项目、素材或凭据。",
+  "releaseNotes": "修正移动云MiniMax H3参数：按渠道文档固定768P、4–15秒及六种比例，面板、节点与实际提交保持一致；测试同步移除历史视频渠道中误分类的文本型号，新旧渠道候选目录一致。沿用本机已验证调用协议，保留个人Key、自定义脚本、报价及启用范围。桌面壳保持0.1.40，仅资源更新。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.69/canvas-resources-0.20.69.zip",
-    "size": 7194814,
-    "sha256": "8b3fdc05fda2fb1815715c52add07ea9fec47546160d496935834539a2140939"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.70/canvas-resources-0.20.70.zip",
+    "size": 7194954,
+    "sha256": "b978e78ee27ffd53218f4317ebf407c77e624ad3d5acaf0d1b04e26428d24b87"
   },
   "files": {
-    "assets/agent-log-json-view-RNk__SYL.js": {
+    "assets/agent-log-json-view-TyKxUi5t.js": {
       "size": 1688,
-      "sha256": "7793dccdb4c4d9b292db3558ee67eca6f7ba86b8aa0e5ddf4821fbcd6746f732"
+      "sha256": "748ba1d792eaeaff56effe4ca9334850bb0809aab2f4d7153b9697e65e0b8e04"
     },
-    "assets/highlighted-body-OFNGDK62-D2PbIMN-.js": {
+    "assets/highlighted-body-OFNGDK62-DdzEDvmE.js": {
       "size": 439,
-      "sha256": "3c93ebe8aa2a53df38f0d25c5a59277d9bc1e079e9e788bb765228c1fae1fdbd"
+      "sha256": "84491a15d2ae621abc82af04b351dcc2816b31a0bb747f9edc83a809f9ef2442"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,6 +27,10 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
+    "assets/index-CEQdSAJ9.js": {
+      "size": 4079487,
+      "sha256": "0f7151614fad6d17fdef2ef1e65a3b7d09a71e12b7b82b456eff4fd5f25327da"
+    },
     "assets/index-Cot0DYbb.css": {
       "size": 128616,
       "sha256": "09f4b1df6aeb85be62d4e88461376ced0799e35cd6d3cdbb98f57eda2e62edb9"
@@ -34,10 +38,6 @@
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
-    },
-    "assets/index-DYR8a8LA.js": {
-      "size": 4079232,
-      "sha256": "410352587e9800cda7557f370ffeca68a116f76ffcd50d1caf88cb543554f2f6"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -55,9 +55,9 @@
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
-    "assets/project-page-Cu6qDEt_.js": {
+    "assets/project-page-DEJZDYIQ.js": {
       "size": 27016,
-      "sha256": "3ced5f6ace086355b49098e1ffa753737344907f78c5c8f4ba6f4c3bb153a3f4"
+      "sha256": "747579858f20438bf955c56bc33296dc7beefc97c0cbf7cd69c812501d5eedad"
     },
     "assets/squoosh_oxipng-Fi8zpv9C.js": {
       "size": 2957,
@@ -73,7 +73,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "ee15c0fb086d1b8597caf3db910863dda9ac6faabfddce8b5b1145da6b1cc65c"
+      "sha256": "b23461897a0a028ba104ce846c05a0ce526f4bd4aeccf2ad9259e0eb23c5c139"
     },
     "config.js": {
       "size": 288,
@@ -109,7 +109,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "14e79a28f8c53c1864803d1b097bf7337dd4e0ac69480f1346b4a14c46263d9f"
+      "sha256": "709a420cb4c61ab39875a92187ba3a8e01654245b6d33a4a974484c65f625999"
     },
     "logo.svg": {
       "size": 233,
