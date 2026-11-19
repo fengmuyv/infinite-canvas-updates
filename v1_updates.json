@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.81",
+  "version": "0.20.82",
   "shellApi": 1,
-  "minShellVersion": "0.1.49",
-  "releaseNotes": "修复百度备份遇到HTML等异常响应时缺少接口与HTTP诊断、重试覆盖首次错误的问题；保留首次失败、素材阶段及原任务提交保护。请升级桌面0.1.49后复测，具体上游HTML原因仍待现场诊断。",
+  "minShellVersion": "0.1.50",
+  "releaseNotes": "修复百度大项目备份：缩略图和素材清单存网盘，数据库仅存管理信息，历史版本分行原子提交；保留多人冲突、重复提交保护与首次失败诊断。缺失素材仅记录引用。需更新桌面壳0.1.50。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.81/canvas-resources-0.20.81.zip",
-    "size": 7227600,
-    "sha256": "4071aa996a8a4f3602053f8f7a81f80074f50c7c39df0ada634b14d807c3d29c"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.82/canvas-resources-0.20.82.zip",
+    "size": 7227774,
+    "sha256": "13115ba3b53b8bf6ad54592405ef7c7757468a9e728b7e958c9987b625d37116"
   },
   "files": {
-    "assets/agent-log-json-view-5xdHuUkh.js": {
+    "assets/agent-log-json-view-B5qDkLVy.js": {
       "size": 1688,
-      "sha256": "4f761b64953ddac396d42d62269ef6bce0172445395e45455e73fdb3339f23ae"
+      "sha256": "007e2e468f74e77b01c5953152757650cafcf07254b18e9424a87f0636222b13"
     },
-    "assets/highlighted-body-OFNGDK62-DEkhxF5-.js": {
+    "assets/highlighted-body-OFNGDK62-U9FDzEsj.js": {
       "size": 439,
-      "sha256": "eb077d44fe2bca8695cc6c5dd846bdac1abfe0437611b42fd8672d08958369fd"
+      "sha256": "a3de4b2f5acdf15f70f1e748df724d5a9aaf20bf3549239b80c67a7d965349b3"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,6 +27,10 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
+    "assets/index-B-BeU8D6.js": {
+      "size": 4142747,
+      "sha256": "b97ae00f05777f47dfc7e607ff4e4d8410bf754de7370bc8091d5826a0a0662e"
+    },
     "assets/index-B48fhzf1.css": {
       "size": 128353,
       "sha256": "3b86f7d468e91224c359e766b5597670966a0a5e34f9d47206faa7bca3c5c671"
@@ -34,10 +38,6 @@
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
-    },
-    "assets/index-D9uFy5iL.js": {
-      "size": 4142192,
-      "sha256": "afc78134c3430cc1e4ac274a3226890fbc36839b3edf8ae2778ee0f443a6bfb0"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -55,9 +55,9 @@
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
-    "assets/project-page-DDNlTAyd.js": {
+    "assets/project-page-DCGGyAuR.js": {
       "size": 27425,
-      "sha256": "d53d51bfd7765ca7f7c4ecb3c40f683c1f59b62dd732594ba06a58464c23c763"
+      "sha256": "8b6f69d3c47293f1fb82d122b72430e56b6ec6e5dd70160012d80a75365f52af"
     },
     "assets/project-persistence.worker-qO7OFZYd.js": {
       "size": 29995,
@@ -77,7 +77,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "bf78f83d6b70ee0e42c3227d19229fc44afe677aee98d64afe918155f9640146"
+      "sha256": "1c1a5e394554cf829b6cc84e6ef35a0b8d290d02511f41737026ba8947edd914"
     },
     "config.js": {
       "size": 288,
@@ -113,7 +113,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "6285db2ba4c7f38151b05ef4f56955027ce711c2aad0b2d4411b8efb183d42c7"
+      "sha256": "2882c1aa321212a78be5dc3731339fdf585799aa15e2f78ca1404042f4a60d82"
     },
     "logo.svg": {
       "size": 233,
@@ -125,9 +125,9 @@
     }
   },
   "installer": {
-    "version": "0.1.49",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.81/InfiniteCanvas-Setup-0.1.49.exe",
-    "size": 147596609,
-    "sha256": "b18991df6212e0b4db7f0e9ba4e72e4a19b5ce3d3b49e41ccaad110758a9224b"
+    "version": "0.1.50",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.82/InfiniteCanvas-Setup-0.1.50.exe",
+    "size": 147598826,
+    "sha256": "dfa5f7365435f99e6b0ec88a243dd71931019115cd10d72806eb364f10a2e83f"
   }
 }
