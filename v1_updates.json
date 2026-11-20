@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.91",
+  "version": "0.20.92",
   "shellApi": 1,
-  "minShellVersion": "0.1.57",
-  "releaseNotes": "云存储操作流水保留最近200条，每工作区保留最近100条已结束任务，并支持清空已结束日志；保留未完成任务、首次错误和备份核验索引，移除结束任务的缩略图提交数据。确认／重试操作固定在日志上方并按需显示。需更新桌面壳0.1.57。",
+  "minShellVersion": "0.1.58",
+  "releaseNotes": "自动同步从首次准备起共用全局三路后台处理，预览独立存文件，状态后台读写并减少重复工作；修复并发开启多个项目同步时旧扫描误删新绑定。百度云42214按原文件身份有限复查，保留首次错误，待处理任务明确显示所属项目。需更新桌面壳0.1.58。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.91/canvas-resources-0.20.91.zip",
-    "size": 7230319,
-    "sha256": "0a4afff6919c9aba56f72c518748d6f3926164ac31b4da570bd4787b3f91fe0b"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.92/canvas-resources-0.20.92.zip",
+    "size": 7230383,
+    "sha256": "05e8a79b2d23b4f96d570746703fcc49324a0b6e72216518d77c4c1a94e629f6"
   },
   "files": {
-    "assets/agent-log-json-view-BiIEjT_b.js": {
+    "assets/agent-log-json-view-DcRFuTGf.js": {
       "size": 1688,
-      "sha256": "595133e42bd6ba93234838505f6ebf22c4d03dd46f583dd1751ac33ec0826d6d"
+      "sha256": "3203b56662930f22786aac9565bb84ffcbc56ded6f425f23e3249e283089a623"
     },
-    "assets/highlighted-body-OFNGDK62-DuHMq3tm.js": {
+    "assets/highlighted-body-OFNGDK62-DkhonVYb.js": {
       "size": 439,
-      "sha256": "5e0643c4abc138534094c468719cd339df8b72d98fd3fe6711728bd2f39db14e"
+      "sha256": "67a82a67140a124ed44a9f55d055ced570be408ecb29fadf799eff4c331edd2d"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -35,9 +35,9 @@
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
     },
-    "assets/index-sLLAIWa6.js": {
-      "size": 4151717,
-      "sha256": "6827b689bd38d0d8e0cddd6bb9d47dd63d46acc6481c0e9703fd68b039b08e90"
+    "assets/index-H_Csa_Uy.js": {
+      "size": 4151716,
+      "sha256": "97623f630dfbe408cca077b593373c2a12de2a8fe1208cf7b71bb5ab0bbe64e9"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -55,9 +55,9 @@
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
-    "assets/project-page-Ccn9DrCU.js": {
+    "assets/project-page-LKgy9gag.js": {
       "size": 27425,
-      "sha256": "4303a00414b58a8e1908c3cd0a421f2f87993fd11646547f5cf7e579df220db1"
+      "sha256": "2422235b69e6764fe7a07be19eddb9b15c34ddaa1fcff1df6ef7a3f5c0e1cd99"
     },
     "assets/project-persistence.worker-qO7OFZYd.js": {
       "size": 29995,
@@ -77,7 +77,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "0d078473da1c8d3d270dc55b0915f736db346c88133dd278d6a67283eddfffbe"
+      "sha256": "629693b45dde9ad37de9277dd3761bf6ef2231a732772928334ae958fe7d59b1"
     },
     "config.js": {
       "size": 288,
@@ -113,7 +113,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "da7e7a2331fb7c518302290af8a9e34a539add4d17087b0f865c28d7d13bfe61"
+      "sha256": "205413b4ce3ff36aa693c95330ef964bfdb100d15197f0ab0f5f4d1552953384"
     },
     "logo.svg": {
       "size": 233,
@@ -125,9 +125,9 @@
     }
   },
   "installer": {
-    "version": "0.1.57",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.91/InfiniteCanvas-Setup-0.1.57.exe",
-    "size": 147603647,
-    "sha256": "06666a98b74147297a9d97282c7c366d0e370e4338a282a11d256bba5704fe54"
+    "version": "0.1.58",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.92/InfiniteCanvas-Setup-0.1.58.exe",
+    "size": 147609205,
+    "sha256": "ebfa9760716f49afe034beef43b9fb77642120adf1feb26c7802684a382d1919"
   }
 }
