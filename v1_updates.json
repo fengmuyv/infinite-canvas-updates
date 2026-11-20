@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.87",
+  "version": "0.20.88",
   "shellApi": 1,
-  "minShellVersion": "0.1.55",
-  "releaseNotes": "百度云存储对同一文件 ID 的空元数据自动复查一次，适用于不同项目和工作区的原件、缩略图与清单；保留首次和最新失败原因，完整核验通过后才允许释放原件。大量缩略图恢复改用独立暂存文件。需桌面壳0.1.55。",
+  "minShellVersion": "0.1.56",
+  "releaseNotes": "再次点击备份当前项目统一续接同项目原未完成任务，复用提交身份和首次失败原因；保持任务顺序，避免遗留409冲突阻挡后续备份。项目编辑后明确提示处理旧提交，保留跨设备占用与完整核验后释放保护。需桌面壳0.1.56。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.87/canvas-resources-0.20.87.zip",
-    "size": 7229620,
-    "sha256": "9cfa1adc075dd3895f1f3420a755bd6b971b71c3d7eb64d4ff4a77a002ba794c"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.88/canvas-resources-0.20.88.zip",
+    "size": 7229618,
+    "sha256": "13da219ad8b6a05c9645303e8cebca7312aa5e5dc109bf2573d17c92c49df6a3"
   },
   "files": {
-    "assets/agent-log-json-view-Dr_rSQKA.js": {
+    "assets/agent-log-json-view-BjUOw3k5.js": {
       "size": 1688,
-      "sha256": "a8dc2299e52959f12eb70c25884d10d700db52ff43f1832a70c48d2874f904ca"
+      "sha256": "1e6db48810e575327f2130fd68b0a628388499f54aff6898778a4bd11007dcda"
     },
-    "assets/highlighted-body-OFNGDK62-D_7AVxnq.js": {
+    "assets/highlighted-body-OFNGDK62-DnPi7sW1.js": {
       "size": 439,
-      "sha256": "9048027140b934a170fa5e278750ec7a0b255e2d77b2fcdc624cc1641f8559a9"
+      "sha256": "0139f41d650e29f21960f4c6e2095bdd99a73aa2fa614d81a89844dd67feeef0"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -27,10 +27,6 @@
       "size": 336608,
       "sha256": "bccb165836a030baf76ccca781cbbf2c6b717b3f965bbfd115ffffb5eba47e20"
     },
-    "assets/index-BFO8YBvS.js": {
-      "size": 4149279,
-      "sha256": "318bb6159f3212c1d8fd6612c23a71448c02b7975ac18834a0117b95251b39aa"
-    },
     "assets/index-Bjxwdi_d.css": {
       "size": 128602,
       "sha256": "f79f4ef16f752d103811fb0f5611223b850535ec49cf136f95a56b444ad52b33"
@@ -38,6 +34,10 @@
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
+    },
+    "assets/index-uZKT36ix.js": {
+      "size": 4149279,
+      "sha256": "5f9e4a9193eadb8e81b85ddcfd9bcb6729abf3d126438563442b3f79f82a2875"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -55,9 +55,9 @@
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
-    "assets/project-page-C_7dzWvZ.js": {
+    "assets/project-page-BXbibelL.js": {
       "size": 27425,
-      "sha256": "bcb3259c8703228ce47be8a69ce57529771775c125ac2259e0484c3bbe5ac923"
+      "sha256": "e2a47ee4f4686fd2aed495e13133c9a84658358675d3e7a314e1eb19b0ff1abe"
     },
     "assets/project-persistence.worker-qO7OFZYd.js": {
       "size": 29995,
@@ -77,7 +77,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "7e50821b19d75750104cc31f01d372d81ea0f35420dc049f9c9fa3c20d09cc3b"
+      "sha256": "519077b0e121ac70b9b8aba6ad9253f227370f97847f3bec4e041cdee3598f6a"
     },
     "config.js": {
       "size": 288,
@@ -113,7 +113,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "0d6d6305ecb1b1a943b1929d49e3a53e55dac072823f3b391463b8fccc586d94"
+      "sha256": "44adc4d27ea547cea6aed721708ec375e222f85884a2b8530041d924cfe6f58b"
     },
     "logo.svg": {
       "size": 233,
@@ -125,9 +125,9 @@
     }
   },
   "installer": {
-    "version": "0.1.55",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.87/InfiniteCanvas-Setup-0.1.55.exe",
-    "size": 147602542,
-    "sha256": "d62e0a48996c37df6e76e662c3269f3d0c87d98bb0e939605de25d8d9fc3151f"
+    "version": "0.1.56",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.88/InfiniteCanvas-Setup-0.1.56.exe",
+    "size": 147602601,
+    "sha256": "a611b8a308288bddeda75108c2abbd82ef1d166c4eefaaa2e566b2017fea325f"
   }
 }
