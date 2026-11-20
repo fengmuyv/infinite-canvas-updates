@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.83",
+  "version": "0.20.84",
   "shellApi": 1,
-  "minShellVersion": "0.1.51",
-  "releaseNotes": "补齐百度缩略图核验、文件元数据及非JSON响应的HTTP和安全错误码；沿用大项目网盘清单、版本原子提交与首次原因保护。缺失素材仅记录引用，不新增自动重试。需桌面壳0.1.51。",
+  "minShellVersion": "0.1.52",
+  "releaseNotes": "修复部分备份后无法释放本地原件：已完整核验的受管原件可单独释放，缺失节点与引用保留；所有引用项目须与最新备份一致。备份后有编辑请先重新备份，再扫描释放。需桌面壳0.1.52。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.83/canvas-resources-0.20.83.zip",
-    "size": 7227766,
-    "sha256": "f2a01d7700794977188303403ec077374102a98db1a39e9c2e992f3112ace2ce"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.84/canvas-resources-0.20.84.zip",
+    "size": 7227798,
+    "sha256": "4b029f0241cce771ece8ae2020b9f8844ba9612a4cc5563200660a59e05f45c9"
   },
   "files": {
-    "assets/agent-log-json-view-UaDHAlHE.js": {
+    "assets/agent-log-json-view-xpAFcupc.js": {
       "size": 1688,
-      "sha256": "4f6597925f12d444342046078f15952e4c1ee0a8efe7d4b302a1d94517e89f9c"
+      "sha256": "59519ced433906f5b0aa5442fe88ac95ace47906b2d547014eb49aa1c7ee4c87"
     },
-    "assets/highlighted-body-OFNGDK62-C_NbW-yp.js": {
+    "assets/highlighted-body-OFNGDK62-DcA6QCMq.js": {
       "size": 439,
-      "sha256": "8e3b89d2e99086d8971baba6a534799dbd6c158a790124fee5a5d925ae43506a"
+      "sha256": "5498201e6b6b0040567725dbd8b871f84b38529493def365022ee59ec2a34377"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -31,13 +31,13 @@
       "size": 128353,
       "sha256": "3b86f7d468e91224c359e766b5597670966a0a5e34f9d47206faa7bca3c5c671"
     },
-    "assets/index-BXrpjrQW.js": {
-      "size": 4142747,
-      "sha256": "32c02ee56a26e73d1f1dd2bd851f5e9cafc49c8dc9d3b480047c2a8b5c57505d"
-    },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
+    },
+    "assets/index-DP3JiqNf.js": {
+      "size": 4142804,
+      "sha256": "b394d26d586ddd2a2cba81cf6f233c95a436d4d9a6303fe05ea0cbee2e570edc"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -51,13 +51,13 @@
       "size": 15488888,
       "sha256": "9d4d47d8cce4317c8dd2c05a57d896d71d99af454ac5d2ab51b43058cee417ae"
     },
+    "assets/project-page-BIu_Uj4a.js": {
+      "size": 27425,
+      "sha256": "9d5b653aad72b74c9a5274503c00ada6bb173d2bd1d02681e0e7a0b4358b1bf1"
+    },
     "assets/project-page-BkhOu_w5.css": {
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
-    },
-    "assets/project-page-cq6iQ5qk.js": {
-      "size": 27425,
-      "sha256": "05270167128a16ff7b09f6f5f40ed245274520761d71540389a46e0c8472ec43"
     },
     "assets/project-persistence.worker-qO7OFZYd.js": {
       "size": 29995,
@@ -77,7 +77,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "f04bc981b2ec2b651b363464124e0a308f83901593f3b74ea777bbae90e89dc2"
+      "sha256": "d0582558aee02b01650f9b0e8a6d2a1a145c2182e345e7760b7535a7cb48fc2a"
     },
     "config.js": {
       "size": 288,
@@ -113,7 +113,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "63ac5a58f794947918da679c4a9e6035899bcdb6083cb388e3db1ae331d0734b"
+      "sha256": "af34da5acd5e463cbd858e6c6321ddf173bca522429350ce78455b0f83f3bcbc"
     },
     "logo.svg": {
       "size": 233,
@@ -125,9 +125,9 @@
     }
   },
   "installer": {
-    "version": "0.1.51",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.83/InfiniteCanvas-Setup-0.1.51.exe",
-    "size": 147598734,
-    "sha256": "06c2828494495c014d037bcf2260b084e5b9ebfd02d9d65c4f8e32367b2bf241"
+    "version": "0.1.52",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.84/InfiniteCanvas-Setup-0.1.52.exe",
+    "size": 147599151,
+    "sha256": "2e5f241fe16659373bf1560ee0d3656ec938972de0522a2af88dc778c8269491"
   }
 }
