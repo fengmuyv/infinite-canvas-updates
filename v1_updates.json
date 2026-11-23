@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.96",
+  "version": "0.20.97",
   "shellApi": 1,
-  "minShellVersion": "0.1.60",
-  "releaseNotes": "视频工作台生成并发可按项目自定义数量或不限，默认不限，批量、单条、Agent与监控重新生成共用额度并保存恢复。内置Agent移除输入、文档与附件数量及载荷的人工上限，完整保存长文本历史；模型及上游容量仍以实际服务为准。修复资产可靠保存提示、资产包原件保护与文本正文跨库恢复、项目素材身份映射及提示词源隔离，并优化已有图片预览恢复。需要桌面壳0.1.60。专项及关联回归已通过，密集画布卡顿、冷预览及整体性能验收仍未完成；本次更新不表示整体压测通过。原有项目和素材保留，未自动安装。",
+  "minShellVersion": "0.1.61",
+  "releaseNotes": "修复删除原文件后重新上传同路径同名新素材失败；不同内容独立登记，保留旧节点与历史的原件校验。工作台与资产库各导入入口先核验原件，同内容有效副本可恢复失效引用和关联项目，保留原路径及原名。193项专项及47项关联综合回归通过。需要桌面壳0.1.61，原有项目与素材保留，未自动安装；整体画布性能验收仍未完成，本次更新不表示整体压测通过。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.96/canvas-resources-0.20.96.zip",
-    "size": 7238749,
-    "sha256": "647b763c67cddeff47aebc3e554d0b00ff118b11aa3b952904182541d97c8b34"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.97/canvas-resources-0.20.97.zip",
+    "size": 7238839,
+    "sha256": "5b31057b5aa60d163259ee9e5a39662fcc95739036c6247cc31aa973c6f29d3b"
   },
   "files": {
-    "assets/agent-log-json-view-BfEqEO2L.js": {
+    "assets/agent-log-json-view-DQkjBMEa.js": {
       "size": 1688,
-      "sha256": "bc825b77cb2ab38448b6cde58d09f21698a044375b17845bc92612d58153e61d"
+      "sha256": "46c02cc362ca261aabbc506566f781ce1dea8b03ae867c7b32c925f45bc869b9"
     },
-    "assets/highlighted-body-OFNGDK62-DQabSfPe.js": {
+    "assets/highlighted-body-OFNGDK62-BFpQq0UZ.js": {
       "size": 439,
-      "sha256": "071dfd485ce750335a12cb5aad29c73bd11fae99f5728e715eccd391ac76e287"
+      "sha256": "01a241e30b28b2dabc418c55c087106b687bf01fafcf544733fae173e81225e9"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -35,13 +35,13 @@
       "size": 124832,
       "sha256": "936d51279a960d3f778f92d4ef8175e522069b3c43b916860a34a310198120f5"
     },
+    "assets/index-CjHypUr0.js": {
+      "size": 4174745,
+      "sha256": "83747b2754b11b7cf7de6cb65665eb0e7f0557121face07883f184ebe34ccd06"
+    },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
       "sha256": "491df9b2fb1b341cbf69ab03009db059552f178b9a5599f5bba7479e07ae0819"
-    },
-    "assets/index-Du-Nrhhb.js": {
-      "size": 4174609,
-      "sha256": "8e61c482d9de24815ba9f1ba8adcab8be1f52543129e8a8474dbfc70635a59de"
     },
     "assets/jpegtran-B595i3lE.wasm": {
       "size": 172049,
@@ -59,9 +59,9 @@
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
-    "assets/project-page-CUhI8_gP.js": {
+    "assets/project-page-ksIx4QlY.js": {
       "size": 28819,
-      "sha256": "a3abde3c3443cf21f32ff74e2c6d37d3ee771a4ac73098ffe2fe455aeb11bf3d"
+      "sha256": "39c89503d64a9cd285bc474499b978cac7d6df0e4bf2a5112c5b26790883f663"
     },
     "assets/project-persistence.worker-qO7OFZYd.js": {
       "size": 29995,
@@ -81,7 +81,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "af0598d6e35cfe2aa95a79160db8f12a99c0065f724a35a7ec8840dd49696e4f"
+      "sha256": "95288b18d3a41959469143e7a2c2ae17e3b77bc3b0f98b229b08146decd4d702"
     },
     "config.js": {
       "size": 288,
@@ -117,7 +117,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "43334a22e74124f0563e4b26ac6b047f0961207ef0ea47b3301d49fb68257fb6"
+      "sha256": "1a4442df2e9cdea58ec794956a67b5ae89f0702500ffb50bf2508fc66548ff09"
     },
     "logo.svg": {
       "size": 233,
@@ -129,9 +129,9 @@
     }
   },
   "installer": {
-    "version": "0.1.60",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.96/InfiniteCanvas-Setup-0.1.60.exe",
-    "size": 147621216,
-    "sha256": "d3a12c6e738385ec8e28d55bab2889988b177308be248f1ca71aa476ab8370f2"
+    "version": "0.1.61",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.97/InfiniteCanvas-Setup-0.1.61.exe",
+    "size": 147621803,
+    "sha256": "f359eb31b9a3774a211b791ece441d0a3b42e6d7212cd2fddc72ae022511206f"
   }
 }
