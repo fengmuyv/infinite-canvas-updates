@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.20.98",
+  "version": "0.20.99",
   "shellApi": 1,
   "minShellVersion": "0.1.61",
-  "releaseNotes": "修复视频工作台已有提交后修改提示词再次生成时仍停留在旧版本的问题；新提交立即显示，旧版本的提示词快照与视频继续保留。新版本、版本历史和重新打开项目后的实际体验仍待验收。",
+  "releaseNotes": "视频工作台自主上传支持内容相同、文件名不同的素材分别添加和引用，底层仍共用原件。同内容同名继续去重。本次只更新前端资源，沿用已核验的桌面 0.1.61 安装器。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.98/canvas-resources-0.20.98.zip",
-    "size": 7239645,
-    "sha256": "e71eb87f53df012ec63730475f9df566f4b06696ef19731f3875d032f5849f62"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.20.99/canvas-resources-0.20.99.zip",
+    "size": 7238885,
+    "sha256": "9a04a16ce5cc9a26d947b988c6b81c9c93f299f0e8636dfb97fa34875d511467"
   },
   "files": {
-    "assets/agent-log-json-view-tVsh9sXT.js": {
+    "assets/agent-log-json-view-Bl_4Tb5U.js": {
       "size": 1688,
-      "sha256": "2019bc8283dccbb6d58da5ffe7d56e81c58750dd61432960bf584abcddbce646"
+      "sha256": "bc6feb5dd628ab71a5b70014a9b4c2163bf3bb99b25ddafd3008f2f36006ad2e"
     },
-    "assets/highlighted-body-OFNGDK62-DWVG06ec.js": {
+    "assets/highlighted-body-OFNGDK62-BDYEtTeE.js": {
       "size": 439,
-      "sha256": "98387a471dcd958eccd246698eb8d5016e6b9adf8409210809d3b6ddfd4ca956"
+      "sha256": "00b2844bab87278b838537b438c33e3a428d155a2b45f21d6d38042ea24afa79"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -31,13 +31,13 @@
       "size": 1355,
       "sha256": "a31d80d93472ba24f3f3a66c198418f2bf5f58dc327b92fe28d94542fc28954b"
     },
-    "assets/index-A53lhBHd.js": {
-      "size": 4174745,
-      "sha256": "f09d1ec8efd8e8ffa2421abe86ef4ff7f22ede6f7933c8a63e7be7e36d837820"
+    "assets/index-B3OOaA3r.css": {
+      "size": 124832,
+      "sha256": "936d51279a960d3f778f92d4ef8175e522069b3c43b916860a34a310198120f5"
     },
-    "assets/index-CA4fNyK5.css": {
-      "size": 129013,
-      "sha256": "a8bd4e427115f4b0045412c22236869fe3dca8244dee0529ddfef3b2d4979aaa"
+    "assets/index-B7jP1DG4.js": {
+      "size": 4174773,
+      "sha256": "4af150acff94e88758eba985a2b2bae0d10c79a9483dbdf24bd2affa7c69e28f"
     },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
@@ -59,9 +59,9 @@
       "size": 11110,
       "sha256": "054df6691c9ce1c8d8df6c63f308c9357374961a3a99a57126cf236a276c8e7f"
     },
-    "assets/project-page-DgSxG0ux.js": {
+    "assets/project-page-D7bIktbQ.js": {
       "size": 28994,
-      "sha256": "51b666937497d8ff394603bbe701f2aa87409e5732818ac1308e01141f4e2d1c"
+      "sha256": "0f352d410798821a863ec8d63ba7f35b3c22a0775ff58c27fa5cee09873a38ca"
     },
     "assets/project-persistence.worker-qO7OFZYd.js": {
       "size": 29995,
@@ -81,7 +81,7 @@
     },
     "canvas-release.json": {
       "size": 88,
-      "sha256": "13e415f10a3aa4675e4c77f1035ec16182be336e5b43121c9a91fd75107f411d"
+      "sha256": "0854b527ca933b9aae6693647096e163f9938762c616edd955a92ea9c8ad5517"
     },
     "config.js": {
       "size": 288,
@@ -117,7 +117,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "465304227a71aac50d087861089bd68c29888185096caa65e47b70598be49301"
+      "sha256": "31a598edb0678d7f3e9c8dffb1cabc27083e4720f3d5a2605fb5864584c92c7a"
     },
     "logo.svg": {
       "size": 233,
