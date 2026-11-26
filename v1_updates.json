@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "product": "infinite-canvas-desktop",
-  "version": "0.21.1",
+  "version": "0.21.3",
   "shellApi": 1,
-  "minShellVersion": "0.1.64",
-  "releaseNotes": "视频工作台增加参考素材分类、侧栏固定和同项目画布引用。可手动取消任务，播放器内显示生成阶段和可复制的上游编号，另存按分镜名。上游审核拒绝停止重提，脚本调用失败仍按规则重试。内置 Agent 可读取应用内引用的素材，缺少原件时请用户补充。修复桌面数据目录不可用时的启动恢复，以及西米露 4K 图片传输过早中断。画布显示已接收的字节，断流后保留原任务编号。",
+  "minShellVersion": "0.1.65",
+  "releaseNotes": "视频工作台生成后沿用上一版提示词与素材引用；引用视频可连同该版提示词和参考素材直接连线。器灵协议和任务异常处理及另存文件名修复。",
   "package": {
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.21.1/canvas-resources-0.21.1.zip",
-    "size": 7249576,
-    "sha256": "4d9a814e93dd281f71b04857707ed4892e28955e2a8f68754275b33df6fe89d8"
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.21.3/canvas-resources-0.21.3.zip",
+    "size": 7253154,
+    "sha256": "7bc3fd35fb467420374e8da3e590be39679bd38b304b82b69dde826063e3e56f"
   },
   "files": {
-    "assets/agent-log-json-view-DWyQWKZ7.js": {
+    "assets/agent-log-json-view-CcNeKXuB.js": {
       "size": 1688,
-      "sha256": "64e6f1951eb3590ab49b3d2e6dc32330d239e9af5ff2ab1501b185fc1a08cd12"
+      "sha256": "539ad8c1b07da9e166266b3b28461eb625301479bb673ea67fc5c200a0707e5f"
     },
-    "assets/highlighted-body-OFNGDK62-pH7vBQZ5.js": {
+    "assets/highlighted-body-OFNGDK62-Bj_KTFNb.js": {
       "size": 439,
-      "sha256": "f76d75654cabdd3fc64819a8ce45843f9d41da321f6259d451eed9feea42ecbf"
+      "sha256": "6af770ea684dcad6f86c9649224622606e11241095513aa474057fc7eb6d28bb"
     },
     "assets/image-annotation-export.worker-NiOL40Ka.js": {
       "size": 385,
@@ -31,13 +31,13 @@
       "size": 1355,
       "sha256": "a31d80d93472ba24f3f3a66c198418f2bf5f58dc327b92fe28d94542fc28954b"
     },
-    "assets/index-Be9zXZe8.js": {
-      "size": 4200629,
-      "sha256": "5241c4c87b53b3f616fe65924220d181a8623496388cbd680e2882b39d008186"
+    "assets/index-C-JfQcDa.js": {
+      "size": 4210262,
+      "sha256": "f16f47c13c3fa12f783d30e7b1fb2a254b52656ad46d7885dee669b1ca931de8"
     },
-    "assets/index-CeFgCn32.css": {
-      "size": 124778,
-      "sha256": "79e7d554aaf8927e4ae25bf78ebfa33b55570a543c60a2e84280af0c9eaea033"
+    "assets/index-C4w7Rn91.css": {
+      "size": 125177,
+      "sha256": "7470938ff7776f562e8b845f9ea6d0a6d58eaa76a05171746d9dd5c2ca90a9d0"
     },
     "assets/index-D5lxxzam.js": {
       "size": 9691,
@@ -55,9 +55,9 @@
       "size": 15488888,
       "sha256": "9d4d47d8cce4317c8dd2c05a57d896d71d99af454ac5d2ab51b43058cee417ae"
     },
-    "assets/project-page-RCFmG2vL.js": {
-      "size": 31839,
-      "sha256": "329806c2ece45ca3e243561a4690a3e9713b715d3e085c9c61164fadb34df5a3"
+    "assets/project-page-CrW9j9P9.js": {
+      "size": 33074,
+      "sha256": "76addf6db64618c7bb348b8bcfeb3cb9cd3dfc2d92c7299dfc1d634b793501dd"
     },
     "assets/project-page-yn5EB08D.css": {
       "size": 12261,
@@ -81,7 +81,7 @@
     },
     "canvas-release.json": {
       "size": 87,
-      "sha256": "86542debb055dd0e847cd51d6ad17ccf6c431f51e623baf62e7b1c2e4fbbd9a0"
+      "sha256": "0a6fe63dcfefa54a9eac6f163e4f98160f3bb18fc5af654ffdce8814a022b93b"
     },
     "config.js": {
       "size": 288,
@@ -117,7 +117,7 @@
     },
     "index.html": {
       "size": 1087,
-      "sha256": "e859d79cf6858710328439957952fc63f8400e382a39bb1f8faa10c08743d869"
+      "sha256": "a23607aa004f098fee04a34673e4cc50746f97a93aa6dc500daeaa3c9d4c2ebf"
     },
     "logo.svg": {
       "size": 233,
@@ -129,9 +129,9 @@
     }
   },
   "installer": {
-    "version": "0.1.64",
-    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.21.1/InfiniteCanvas-Setup-0.1.64.exe",
-    "size": 147637221,
-    "sha256": "ec73d4375eaa862b35f670d57a58d6c51fa6f58b58167778c9d4c78f44b00e91"
+    "version": "0.1.65",
+    "url": "https://github.com/fengmuyv/infinite-canvas-updates/releases/download/resources-v0.21.3/InfiniteCanvas-Setup-0.1.65.exe",
+    "size": 147557371,
+    "sha256": "37faf8763b19eaffadd3dc21b4e781a31d132231a6ecadc634cf2e8c76160149"
   }
 }
